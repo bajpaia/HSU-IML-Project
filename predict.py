@@ -29,7 +29,7 @@ class Predictor:
     #     self.model.load_weights(WEIGHT_PATH)
     #     self.max_len = INPUT_LENGTH
     #     global graph
-    #     graph = tf.get_default_graph() 
+    #     graph = tf.get_default_graph() \
     #     pickle_in = open(WORD_IDX_PATH, 'rb')
     #     self.word_index = pickle.load(pickle_in)
 
