@@ -17,6 +17,5 @@ install:
   - conda info -a
  
   - conda install keras
-   - conda install tensorflow
+  - conda install tensorflow
   - conda install nltk
-  - conda install numpy
