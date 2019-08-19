@@ -23,5 +23,6 @@ install:
   - conda install keras
   - conda install tensorflow
   - conda install nltk
+  - conda install -c anaconda flask
 script:
   - python3 app.py
