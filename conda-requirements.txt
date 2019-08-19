@@ -1,7 +1,7 @@
 # packages in environment at //anaconda3/envs/flask-IML:
 #
 # Name                    Version                   Build  Channel
-_tflow_select             2.3.0                       mkl  
+
 c-ares                    1.15.0            h1de35cc_1001  
 ca-certificates           2019.5.15                     1  
 certifi                   2019.6.16                py37_1  
