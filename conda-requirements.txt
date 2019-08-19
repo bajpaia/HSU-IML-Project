@@ -1,0 +1,29 @@
+# packages in environment at //anaconda3/envs/flask-IML:
+#
+# Name                    Version                   Build  Channel
+_tflow_select             2.3.0                       mkl  
+c-ares                    1.15.0            h1de35cc_1001  
+ca-certificates           2019.5.15                     1  
+certifi                   2019.6.16                py37_1  
+intel-openmp              2019.4                      233  
+itsdangerous              1.1.0                    py37_0  
+keras                     2.2.4                         0  
+keras-applications        1.0.8                      py_0  
+keras-base                2.2.4                    py37_0  
+keras-preprocessing       1.1.0                      py_1  
+libedit                   3.1.20181209         hb402a30_0  
+markupsafe                1.1.1            py37h1de35cc_0  
+mkl-service               2.0.2            py37h1de35cc_0  
+ncurses                   6.1                  h0a44026_1  
+numpy-base                1.16.4           py37h6575580_0  
+openssl                   1.1.1c               h1de35cc_1  
+readline                  7.0                  h1de35cc_5  
+setuptools                41.0.1                   py37_0  
+sqlite                    3.29.0               ha441bb4_0  
+tensorboard               1.14.0           py37h80053f4_0  
+tensorflow                1.14.0          mkl_py37h085be34_0  
+tensorflow-base           1.14.0          mkl_py37h5a24fda_0  
+tensorflow-estimator      1.14.0                     py_0  
+termcolor                 1.1.0                    py37_1  
+werkzeug                  0.15.4                     py_0  
+wheel                     0.33.4                   py37_0  

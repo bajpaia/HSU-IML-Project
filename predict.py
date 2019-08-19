@@ -4,7 +4,9 @@ import nltk
 import numpy as np
 import tensorflow as tf
 from keras.models import model_from_json
+import os
 
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 nltk.download('all')
 
 from nltk.corpus import stopwords
