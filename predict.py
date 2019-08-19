@@ -4,6 +4,9 @@ import nltk
 import numpy as np
 import tensorflow as tf
 from keras.models import model_from_json
+
+nltk.download('all')
+
 from nltk.corpus import stopwords
 from keras.preprocessing.sequence import pad_sequences
 
@@ -16,8 +19,6 @@ INPUT_LENGTH = 50
 STOPWORDS = set(stopwords.words('english'))
 PERSONS = {'enfj', 'enfp', 'entj', 'entp', 'esfj', 'esfp', 
 'estj', 'estp', 'infj', 'infp', 'intj', 'intp', 'isfj', 'isfp', 'istj', 'istp'}
-nltk.download('all')
-
 
 class Predictor:
 
