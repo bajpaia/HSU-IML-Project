@@ -4,9 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Results</title>
+    <link rel="stylesheet" href='/static/style.css' />
 </head>
 
 <body>
-    <h1> You are {{probability}}% {{class_pred}} </h1>
+
+    <h1>Results</h1> 
+    <div class="form-container">
+        <form >
+            <div class="form-group">
+                <label >You are {{probability}}% {{class_pred}} </label>
+            </div>        
+        </form>
+    </div>
 </body>
 </html>

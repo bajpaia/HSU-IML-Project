@@ -63,4 +63,4 @@ class Predictor:
 
         prediction = self.personalities[np.argmax(pred[0])]
         print(pred)
-        return (prediction, pred[0][np.argmax(pred)]*100)
+        return (prediction, int(pred[0][np.argmax(pred)]*100))
