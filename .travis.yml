@@ -19,3 +19,5 @@ install:
   - conda install keras
   - conda install tensorflow
   - conda install nltk
+script:
+  - pytest
