@@ -18,3 +18,5 @@ def api_predict(text):
     pred_class, pred_prob = predictor.predict_input_class(text)
     return jsonify({pred_class: pred_prob})
 
+if __name__ == '__main__':
+    app.run(debug=True,host='0.0.0.0')

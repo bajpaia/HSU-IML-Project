@@ -7,7 +7,7 @@ from keras.models import model_from_json
 import os
 
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
-nltk.download('all')
+nltk.download('stopwords')
 
 from nltk.corpus import stopwords
 from keras.preprocessing.sequence import pad_sequences
