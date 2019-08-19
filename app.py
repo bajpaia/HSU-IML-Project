@@ -10,6 +10,6 @@ def index():
         return render_template('index.html')
     else:
         text = request.form['email']
-        pred_class, pred_prob = predictor.predict_class(text)
+        pred_class, pred_prob = predictor.predict_input_class(text)
 
         return render_template('prediction.html', probability = pred_prob, class_pred= pred_class)
