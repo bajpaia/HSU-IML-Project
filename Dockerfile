@@ -12,4 +12,5 @@ RUN conda install nltk
 RUN conda install flask
 RUN conda install numpy
 EXPOSE 5000
-ENTRYPOINT ["./boot.sh"]
+ENTRYPOINT ["python"]
+CMD ["app.py"]
